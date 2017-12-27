@@ -13,7 +13,8 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     var labelString:String = "0"
-    
+    var SavedInt:Int64 = 0
+//    var SecondInt:Int64
     
     @IBOutlet var label: WKInterfaceLabel!
     @IBAction func tapped0(){tappedNumber(num:0)}
@@ -27,20 +28,10 @@ class InterfaceController: WKInterfaceController {
     @IBAction func tapped8() {tappedNumber(num:8)}
     @IBAction func tapped9() {tappedNumber(num:9)}
     
-    
-    
-    
     func tappedNumber(num:Int) {
         labelString = labelString.appending("\(num)")
         updateText()
     }
-    
-    
-    
-    
-    
-    
-    
     
     func updateText(){
         guard let LabelInt:Int64 = Int64(labelString) else {
@@ -50,8 +41,22 @@ class InterfaceController: WKInterfaceController {
         label.setText("\(LabelInt)")
     }
     
+    
+    
+    
     @IBAction func tappedPlus() {
+        guard let LabelInt:Int64 = Int64(labelString) else {
+            label.setText("Number is too big")
+            return
+        }
         
+        if SavedInt == 0 {
+            SavedInt = Int64(labelString)!
+        }
+        else {
+            SavedInt += LabelInt
+            label.setText("\(SavedInt)")
+        }
         
     }
     
@@ -61,8 +66,9 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func tappedClear() {
-        
-        
+        label.setText("0")
+        labelString = "0"
+        SavedInt = 0
     }
     
     @IBAction func tappedEquals() {
