@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+               BuildableName = "CalculatorLynda WatchKit App.app"
+               BlueprintName = "CalculatorLynda WatchKit App"
+               ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C36D14671FF333FE0032720C"
+               BuildableName = "CalculatorLynda.app"
+               BlueprintName = "CalculatorLynda"
+               ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+            BuildableName = "CalculatorLynda WatchKit App.app"
+            BlueprintName = "CalculatorLynda WatchKit App"
+            ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/CalculatorLynda WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+            BuildableName = "CalculatorLynda WatchKit App.app"
+            BlueprintName = "CalculatorLynda WatchKit App"
+            ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+            BuildableName = "CalculatorLynda WatchKit App.app"
+            BlueprintName = "CalculatorLynda WatchKit App"
+            ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/CalculatorLynda WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+            BuildableName = "CalculatorLynda WatchKit App.app"
+            BlueprintName = "CalculatorLynda WatchKit App"
+            ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C36D148F1FF333FE0032720C"
+            BuildableName = "CalculatorLynda WatchKit App.app"
+            BlueprintName = "CalculatorLynda WatchKit App"
+            ReferencedContainer = "container:CalculatorLynda.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

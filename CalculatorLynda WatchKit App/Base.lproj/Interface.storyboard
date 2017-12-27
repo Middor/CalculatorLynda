@@ -1,14 +1,119 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12118" systemVersion="16G1114" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CalculatorLynda_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="iqe-9Z-LTw">
+                            <items>
+                                <label alignment="right" text="0" textAlignment="right" id="ID9-bI-J0e"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="xO2-Fl-qRo">
+                            <items>
+                                <button width="0.25" height="1" alignment="left" title="7" id="Lff-E3-wT9">
+                                    <connections>
+                                        <action selector="tapped7" destination="AgC-eL-Hgc" id="Gts-De-tWc"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="8" id="S3s-IG-ACR">
+                                    <connections>
+                                        <action selector="tapped8" destination="AgC-eL-Hgc" id="x9G-rN-Yw0"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="9" id="Fsb-gI-oYc">
+                                    <connections>
+                                        <action selector="tapped9" destination="AgC-eL-Hgc" id="ANf-oB-WXW"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="+" id="7H7-4G-5fQ">
+                                    <color key="backgroundColor" red="0.27251844640531475" green="0.27664015703383027" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="tappedPlus" destination="AgC-eL-Hgc" id="WWf-DZ-Xho"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="bsW-j4-bHO">
+                            <items>
+                                <button width="0.25" height="1" alignment="left" title="4" id="BgB-gU-4Zj">
+                                    <connections>
+                                        <action selector="tapped4" destination="AgC-eL-Hgc" id="5kL-cf-EKY"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="5" id="59k-wt-e12">
+                                    <connections>
+                                        <action selector="tapped5" destination="AgC-eL-Hgc" id="bOq-P9-sCo"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="6" id="c5w-qs-wFB">
+                                    <connections>
+                                        <action selector="tapped6" destination="AgC-eL-Hgc" id="aHi-YR-wWW"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="-" id="Rnj-XO-K4f">
+                                    <color key="backgroundColor" red="0.27267629694517825" green="0.27275016583792611" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="tappedMinus" destination="AgC-eL-Hgc" id="weN-NZ-PMG"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="UyH-z8-GXT">
+                            <items>
+                                <button width="0.25" height="1" alignment="left" title="1" id="Hpj-0P-TL9">
+                                    <connections>
+                                        <action selector="tapped1" destination="AgC-eL-Hgc" id="Gyg-OF-eNt"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="2" id="d32-Ye-bSL">
+                                    <connections>
+                                        <action selector="tapped2" destination="AgC-eL-Hgc" id="peU-k5-LTh"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="3" id="klz-mf-cHe">
+                                    <connections>
+                                        <action selector="tapped3" destination="AgC-eL-Hgc" id="kbx-ZW-kuh"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="C" id="WLv-Ic-I59">
+                                    <color key="backgroundColor" red="1" green="0.60427776362090158" blue="0.10681782226040037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="tappedClear" destination="AgC-eL-Hgc" id="Q4k-aT-h22"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="zf8-MM-dVE">
+                            <items>
+                                <button width="0.75" height="1" alignment="left" title="0" id="hoc-G6-q5v">
+                                    <connections>
+                                        <action selector="tapped0" destination="AgC-eL-Hgc" id="CJB-gz-VeL"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="=" id="ViQ-NQ-n12">
+                                    <color key="backgroundColor" red="0.22357256981521148" green="0.76991580310880825" blue="0.51628763978700776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="tappedEquals" destination="AgC-eL-Hgc" id="QNn-r4-JLw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="ID9-bI-J0e" id="VkR-tf-in9"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>
