@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36D146C1FF333FE0032720C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D146B1FF333FE0032720C /* AppDelegate.swift */; };
+		C36D146E1FF333FE0032720C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D146D1FF333FE0032720C /* ViewController.swift */; };
+		C36D14711FF333FE0032720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36D146F1FF333FE0032720C /* Main.storyboard */; };
+		C36D14731FF333FE0032720C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36D14721FF333FE0032720C /* Assets.xcassets */; };
+		C36D14761FF333FE0032720C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36D14741FF333FE0032720C /* LaunchScreen.storyboard */; };
+		C36D14811FF333FE0032720C /* CalculatorLyndaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D14801FF333FE0032720C /* CalculatorLyndaTests.swift */; };
+		C36D148C1FF333FE0032720C /* CalculatorLyndaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D148B1FF333FE0032720C /* CalculatorLyndaUITests.swift */; };
+		C36D14911FF333FE0032720C /* CalculatorLynda WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C36D14901FF333FE0032720C /* CalculatorLynda WatchKit App.app */; };
+		C36D14971FF333FE0032720C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36D14951FF333FE0032720C /* Interface.storyboard */; };
+		C36D14991FF333FE0032720C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36D14981FF333FE0032720C /* Assets.xcassets */; };
+		C36D14A01FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C36D149F1FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C36D14A51FF333FE0032720C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D14A41FF333FE0032720C /* InterfaceController.swift */; };
+		C36D14A71FF333FE0032720C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D14A61FF333FE0032720C /* ExtensionDelegate.swift */; };
+		C36D14A91FF333FE0032720C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36D14A81FF333FE0032720C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36D147D1FF333FE0032720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36D14601FF333FE0032720C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36D14671FF333FE0032720C;
+			remoteInfo = CalculatorLynda;
+		};
+		C36D14881FF333FE0032720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36D14601FF333FE0032720C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36D14671FF333FE0032720C;
+			remoteInfo = CalculatorLynda;
+		};
+		C36D14921FF333FE0032720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36D14601FF333FE0032720C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36D148F1FF333FE0032720C;
+			remoteInfo = "CalculatorLynda WatchKit App";
+		};
+		C36D14A11FF333FE0032720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36D14601FF333FE0032720C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36D149E1FF333FE0032720C;
+			remoteInfo = "CalculatorLynda WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C36D14B01FF333FE0032720C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C36D14A01FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14B41FF333FE0032720C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C36D14911FF333FE0032720C /* CalculatorLynda WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C36D14681FF333FE0032720C /* CalculatorLynda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorLynda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D146B1FF333FE0032720C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36D146D1FF333FE0032720C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C36D14701FF333FE0032720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36D14721FF333FE0032720C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36D14751FF333FE0032720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36D14771FF333FE0032720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36D147C1FF333FE0032720C /* CalculatorLyndaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorLyndaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D14801FF333FE0032720C /* CalculatorLyndaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLyndaTests.swift; sourceTree = "<group>"; };
+		C36D14821FF333FE0032720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36D14871FF333FE0032720C /* CalculatorLyndaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorLyndaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D148B1FF333FE0032720C /* CalculatorLyndaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLyndaUITests.swift; sourceTree = "<group>"; };
+		C36D148D1FF333FE0032720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36D14901FF333FE0032720C /* CalculatorLynda WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorLynda WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D14961FF333FE0032720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C36D14981FF333FE0032720C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36D149A1FF333FE0032720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36D149F1FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalculatorLynda WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D14A41FF333FE0032720C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C36D14A61FF333FE0032720C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C36D14A81FF333FE0032720C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36D14AA1FF333FE0032720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36D14651FF333FE0032720C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14791FF333FE0032720C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14841FF333FE0032720C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D149C1FF333FE0032720C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36D145F1FF333FE0032720C = {
+			isa = PBXGroup;
+			children = (
+				C36D146A1FF333FE0032720C /* CalculatorLynda */,
+				C36D147F1FF333FE0032720C /* CalculatorLyndaTests */,
+				C36D148A1FF333FE0032720C /* CalculatorLyndaUITests */,
+				C36D14941FF333FE0032720C /* CalculatorLynda WatchKit App */,
+				C36D14A31FF333FE0032720C /* CalculatorLynda WatchKit Extension */,
+				C36D14691FF333FE0032720C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36D14691FF333FE0032720C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36D14681FF333FE0032720C /* CalculatorLynda.app */,
+				C36D147C1FF333FE0032720C /* CalculatorLyndaTests.xctest */,
+				C36D14871FF333FE0032720C /* CalculatorLyndaUITests.xctest */,
+				C36D14901FF333FE0032720C /* CalculatorLynda WatchKit App.app */,
+				C36D149F1FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36D146A1FF333FE0032720C /* CalculatorLynda */ = {
+			isa = PBXGroup;
+			children = (
+				C36D146B1FF333FE0032720C /* AppDelegate.swift */,
+				C36D146D1FF333FE0032720C /* ViewController.swift */,
+				C36D146F1FF333FE0032720C /* Main.storyboard */,
+				C36D14721FF333FE0032720C /* Assets.xcassets */,
+				C36D14741FF333FE0032720C /* LaunchScreen.storyboard */,
+				C36D14771FF333FE0032720C /* Info.plist */,
+			);
+			path = CalculatorLynda;
+			sourceTree = "<group>";
+		};
+		C36D147F1FF333FE0032720C /* CalculatorLyndaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36D14801FF333FE0032720C /* CalculatorLyndaTests.swift */,
+				C36D14821FF333FE0032720C /* Info.plist */,
+			);
+			path = CalculatorLyndaTests;
+			sourceTree = "<group>";
+		};
+		C36D148A1FF333FE0032720C /* CalculatorLyndaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36D148B1FF333FE0032720C /* CalculatorLyndaUITests.swift */,
+				C36D148D1FF333FE0032720C /* Info.plist */,
+			);
+			path = CalculatorLyndaUITests;
+			sourceTree = "<group>";
+		};
+		C36D14941FF333FE0032720C /* CalculatorLynda WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C36D14951FF333FE0032720C /* Interface.storyboard */,
+				C36D14981FF333FE0032720C /* Assets.xcassets */,
+				C36D149A1FF333FE0032720C /* Info.plist */,
+			);
+			path = "CalculatorLynda WatchKit App";
+			sourceTree = "<group>";
+		};
+		C36D14A31FF333FE0032720C /* CalculatorLynda WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C36D14A41FF333FE0032720C /* InterfaceController.swift */,
+				C36D14A61FF333FE0032720C /* ExtensionDelegate.swift */,
+				C36D14A81FF333FE0032720C /* Assets.xcassets */,
+				C36D14AA1FF333FE0032720C /* Info.plist */,
+			);
+			path = "CalculatorLynda WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36D14671FF333FE0032720C /* CalculatorLynda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D14B51FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda" */;
+			buildPhases = (
+				C36D14641FF333FE0032720C /* Sources */,
+				C36D14651FF333FE0032720C /* Frameworks */,
+				C36D14661FF333FE0032720C /* Resources */,
+				C36D14B41FF333FE0032720C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36D14931FF333FE0032720C /* PBXTargetDependency */,
+			);
+			name = CalculatorLynda;
+			productName = CalculatorLynda;
+			productReference = C36D14681FF333FE0032720C /* CalculatorLynda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36D147B1FF333FE0032720C /* CalculatorLyndaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D14B81FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLyndaTests" */;
+			buildPhases = (
+				C36D14781FF333FE0032720C /* Sources */,
+				C36D14791FF333FE0032720C /* Frameworks */,
+				C36D147A1FF333FE0032720C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36D147E1FF333FE0032720C /* PBXTargetDependency */,
+			);
+			name = CalculatorLyndaTests;
+			productName = CalculatorLyndaTests;
+			productReference = C36D147C1FF333FE0032720C /* CalculatorLyndaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36D14861FF333FE0032720C /* CalculatorLyndaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D14BB1FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLyndaUITests" */;
+			buildPhases = (
+				C36D14831FF333FE0032720C /* Sources */,
+				C36D14841FF333FE0032720C /* Frameworks */,
+				C36D14851FF333FE0032720C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36D14891FF333FE0032720C /* PBXTargetDependency */,
+			);
+			name = CalculatorLyndaUITests;
+			productName = CalculatorLyndaUITests;
+			productReference = C36D14871FF333FE0032720C /* CalculatorLyndaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C36D148F1FF333FE0032720C /* CalculatorLynda WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D14B11FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda WatchKit App" */;
+			buildPhases = (
+				C36D148E1FF333FE0032720C /* Resources */,
+				C36D14B01FF333FE0032720C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36D14A21FF333FE0032720C /* PBXTargetDependency */,
+			);
+			name = "CalculatorLynda WatchKit App";
+			productName = "CalculatorLynda WatchKit App";
+			productReference = C36D14901FF333FE0032720C /* CalculatorLynda WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C36D149E1FF333FE0032720C /* CalculatorLynda WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D14AD1FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda WatchKit Extension" */;
+			buildPhases = (
+				C36D149B1FF333FE0032720C /* Sources */,
+				C36D149C1FF333FE0032720C /* Frameworks */,
+				C36D149D1FF333FE0032720C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalculatorLynda WatchKit Extension";
+			productName = "CalculatorLynda WatchKit Extension";
+			productReference = C36D149F1FF333FE0032720C /* CalculatorLynda WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36D14601FF333FE0032720C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Richard Middelberg";
+				TargetAttributes = {
+					C36D14671FF333FE0032720C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C36D147B1FF333FE0032720C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C36D14671FF333FE0032720C;
+					};
+					C36D14861FF333FE0032720C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C36D14671FF333FE0032720C;
+					};
+					C36D148F1FF333FE0032720C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C36D149E1FF333FE0032720C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C36D14631FF333FE0032720C /* Build configuration list for PBXProject "CalculatorLynda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36D145F1FF333FE0032720C;
+			productRefGroup = C36D14691FF333FE0032720C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36D14671FF333FE0032720C /* CalculatorLynda */,
+				C36D147B1FF333FE0032720C /* CalculatorLyndaTests */,
+				C36D14861FF333FE0032720C /* CalculatorLyndaUITests */,
+				C36D148F1FF333FE0032720C /* CalculatorLynda WatchKit App */,
+				C36D149E1FF333FE0032720C /* CalculatorLynda WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36D14661FF333FE0032720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D14761FF333FE0032720C /* LaunchScreen.storyboard in Resources */,
+				C36D14731FF333FE0032720C /* Assets.xcassets in Resources */,
+				C36D14711FF333FE0032720C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D147A1FF333FE0032720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14851FF333FE0032720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D148E1FF333FE0032720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D14991FF333FE0032720C /* Assets.xcassets in Resources */,
+				C36D14971FF333FE0032720C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D149D1FF333FE0032720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D14A91FF333FE0032720C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36D14641FF333FE0032720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D146E1FF333FE0032720C /* ViewController.swift in Sources */,
+				C36D146C1FF333FE0032720C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14781FF333FE0032720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D14811FF333FE0032720C /* CalculatorLyndaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D14831FF333FE0032720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D148C1FF333FE0032720C /* CalculatorLyndaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36D149B1FF333FE0032720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D14A71FF333FE0032720C /* ExtensionDelegate.swift in Sources */,
+				C36D14A51FF333FE0032720C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36D147E1FF333FE0032720C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36D14671FF333FE0032720C /* CalculatorLynda */;
+			targetProxy = C36D147D1FF333FE0032720C /* PBXContainerItemProxy */;
+		};
+		C36D14891FF333FE0032720C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36D14671FF333FE0032720C /* CalculatorLynda */;
+			targetProxy = C36D14881FF333FE0032720C /* PBXContainerItemProxy */;
+		};
+		C36D14931FF333FE0032720C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36D148F1FF333FE0032720C /* CalculatorLynda WatchKit App */;
+			targetProxy = C36D14921FF333FE0032720C /* PBXContainerItemProxy */;
+		};
+		C36D14A21FF333FE0032720C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36D149E1FF333FE0032720C /* CalculatorLynda WatchKit Extension */;
+			targetProxy = C36D14A11FF333FE0032720C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36D146F1FF333FE0032720C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36D14701FF333FE0032720C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36D14741FF333FE0032720C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36D14751FF333FE0032720C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C36D14951FF333FE0032720C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36D14961FF333FE0032720C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36D14AB1FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36D14AC1FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36D14AE1FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CalculatorLynda WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		C36D14AF1FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CalculatorLynda WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		C36D14B21FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CalculatorLynda_WatchKit_Extension;
+				INFOPLIST_FILE = "CalculatorLynda WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		C36D14B31FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CalculatorLynda_WatchKit_Extension;
+				INFOPLIST_FILE = "CalculatorLynda WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		C36D14B61FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalculatorLynda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C36D14B71FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalculatorLynda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLynda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C36D14B91FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalculatorLyndaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLyndaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorLynda.app/CalculatorLynda";
+			};
+			name = Debug;
+		};
+		C36D14BA1FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalculatorLyndaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLyndaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorLynda.app/CalculatorLynda";
+			};
+			name = Release;
+		};
+		C36D14BC1FF333FE0032720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalculatorLyndaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLyndaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalculatorLynda;
+			};
+			name = Debug;
+		};
+		C36D14BD1FF333FE0032720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalculatorLyndaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Middo.CalculatorLyndaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalculatorLynda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36D14631FF333FE0032720C /* Build configuration list for PBXProject "CalculatorLynda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14AB1FF333FE0032720C /* Debug */,
+				C36D14AC1FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36D14AD1FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14AE1FF333FE0032720C /* Debug */,
+				C36D14AF1FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36D14B11FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14B21FF333FE0032720C /* Debug */,
+				C36D14B31FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36D14B51FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLynda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14B61FF333FE0032720C /* Debug */,
+				C36D14B71FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36D14B81FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLyndaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14B91FF333FE0032720C /* Debug */,
+				C36D14BA1FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36D14BB1FF333FE0032720C /* Build configuration list for PBXNativeTarget "CalculatorLyndaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D14BC1FF333FE0032720C /* Debug */,
+				C36D14BD1FF333FE0032720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36D14601FF333FE0032720C /* Project object */;
+}
